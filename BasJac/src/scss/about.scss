@@ -1,0 +1,95 @@
+$linkColor: #fff;
+$shadow: #b0b0b0;
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.jumbotron {
+    border-radius: 0;
+    height: 500px;
+    background: url("https://images.pexels.com/photos/733852/pexels-photo-733852.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-size: cover;
+}
+
+#about-us p {
+    font-size: 1em;
+    font-weight: 100;
+
+    img {
+        border-radius: 10px;
+    }
+}
+
+#footer {
+    margin-top: 50px;
+    padding-top: 40px;
+}
+
+#footer p {
+    font-size: 0.85em;
+}
+
+.info-left {
+    text-align: center;
+}
+
+.info-mid {
+    text-align: center;
+    font-weight: 100;
+    border-right: 1px solid white;
+    height: 60%;
+
+    ul {
+        list-style: none;
+    
+        li a {
+            color: $linkColor;
+        }
+    }
+}
+
+.info-mid-2 {
+    font-weight: 100;
+    text-align: center;
+    border-right: 1px solid white;
+    height: 60%;
+
+    ul {
+        list-style: none;
+    
+        li a {
+            color: $linkColor;
+        }
+    }
+}
+
+.info-mid-3 {
+    font-weight: 100;
+    text-align: center;
+
+    ul {
+        list-style: none;
+
+        li a {
+            color: $linkColor;
+        }
+    }
+}
+
+#external-links {
+    text-align: center;
+        
+    img:hover{
+        cursor: pointer;
+    }
+}
+
+#copyright {
+    text-align: center;
+    font-weight: 100;
+}

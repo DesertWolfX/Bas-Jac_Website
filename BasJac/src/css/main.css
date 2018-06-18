@@ -1,0 +1,66 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box; }
+
+.jumbotron {
+  border-radius: 0;
+  height: 500px;
+  background: url("https://images.pexels.com/photos/733852/pexels-photo-733852.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-size: cover; }
+
+#service-area p {
+  font-size: 1em; }
+
+#service-area a {
+  color: #fff; }
+
+#service-area a:hover {
+  text-decoration: none; }
+
+#footer {
+  margin-top: 50px;
+  padding-top: 40px; }
+
+#footer p {
+  font-size: 0.85em; }
+
+.info-left {
+  text-align: center; }
+
+.info-mid {
+  text-align: center;
+  font-weight: 100; }
+  .info-mid ul {
+    list-style: none; }
+    .info-mid ul li a {
+      color: #fff; }
+
+.info-mid-2 {
+  font-weight: 100;
+  text-align: center; }
+  .info-mid-2 ul {
+    list-style: none; }
+    .info-mid-2 ul li a {
+      color: #fff; }
+
+.info-mid-3 {
+  font-weight: 100;
+  text-align: center; }
+  .info-mid-3 ul {
+    list-style: none; }
+    .info-mid-3 ul li a {
+      color: #fff; }
+
+#external-links {
+  text-align: center; }
+  #external-links img:hover {
+    cursor: pointer; }
+
+#copyright {
+  text-align: center;
+  font-weight: 100; }
+
+/*# sourceMappingURL=main.css.map */
